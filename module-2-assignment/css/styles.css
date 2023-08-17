@@ -1,39 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 * {
 	box-sizing: border-box;
 }
 p {
 	border: 1px solid black;
-	background-color: #616A6B;
+	background-color: #999999;
 	width: 90%;
-	height: 150px;
+	height: 180px;
 	margin-right: auto;
 	margin-left: auto;
-	font-family: Sans Helvetica;
+	margin-top: auto;
+	font-family: VT323, Helvetica;
+	padding-top: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
 	color: black;
+	border: 3px solid black;
+	overflow: hidden;
 }
 
 h1 {
 	text-align: center;
-	margin-bottom: 15px;
+	margin-bottom: 1px;
+	font-family: VT323;
 }
 
 h2 {
-	text-align: left;
+	border: 2px solid black;
+	border-right: 3px solid black;
+	position: relative;
+	top: 50px;
+	width: 30%;
+	left: 65%;
+	text-align: center;
+	font-family: VT323, Helvetica;
+	padding: 1px;
+	overflow: hidden;
 }
 
 #grass {
-	background-color: green;
+	background-color: #8BC34A;
 }
 
 #fire {
-	background-color: orange;
+	background-color: #FF9800;
 }
 
 #water {
-	background-color: lightblue;
+	background-color: #03A9F4;
 }
 
-#container {
+div {
 	position: relative;
 }
 .row {
@@ -86,7 +105,7 @@ h2 {
 }
 
 /***** Tablet *****/
-@media (min-width: 768 ) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px){
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
   .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
